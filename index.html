@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Web Clima</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3721/3721881.png">
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <main id="Container-Main">
+        <section id="Container-Left">
+            <h1>Welcome to App Web Clima</h1>
+            <p>You can only search for the weather in Venezuela  <img src="https://flagcdn.com/20x15/ve.png" id="Flag-State"> so be sure to enter states that exist there. </p>
+            <p>This app uses the API of OpenWeatherMap. You can find more information about it <a href="https://openweathermap.org/api">here</a></p>
+            <p>Made with ❤️ by Jesus Cortez</p>
+        </section>
+
+        <section id="Container-Right">
+            <div id="Container-img-weather">
+                <img src="https://cdn-icons-png.flaticon.com/512/3721/3721881.png" alt="icon of clouds" id="Icon-Weather">
+            </div>
+
+            <div id="Container-Search-state">
+                <input type="text" id="Input-Search-state" placeholder="Search a state">
+                <button id="Button-Search-state">Search</button>
+            </div>
+
+            <div id="Info-Weather-state"></div>
+        </section>
+    </main>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
